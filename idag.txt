@@ -1,5 +1,0 @@
-Har lavet en del opsætning igen idag.
-
-Bla. denne dagbog, og oprettelse af cronjob (scheduled tasks)
-fremover bliver dagbogen udfyldt om morgenen for at huske hvad jeg har lavet den foregående dag.
-HF GL :)

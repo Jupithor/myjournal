@@ -1,15 +1,15 @@
 #!/usr/bin/bash
-yesterday=$(date --date="-1 day" +"%A")
+lastlogdate=$(head -n 1 dagbog.txt)
+weekday=$(date -d "$lastlogdate 1 day" +%A)
 
-if [ $yesterday == "Sunday" ];
+if [ $weekday == "Saturday" ];
 then
-	yesterday=$(date --date="-3 days" +"%A %d-%m-%Y")
+	nextlogdate=$(date -d "$lastlogdate 3 days" +'%A %d-%^b-%Y')
 else
-	yesterday=$(date --date="-1 day" +"%A %d-%m-%Y")
-	
+	nextlogdate=$(date -d "$lastlogdate 1 day" +'%A %d-%^b-%Y')
 fi
 
-echo "$yesterday
+echo "$nextlogdate
 ===================
 ${1}
 

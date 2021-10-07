@@ -1,9 +1,21 @@
-Monday 04-10-2021
+Wednesday 06-OCT-2021
+===================
+Lærte lidt om MITRE Cyber Analytics Repository (CAR)
+Det er 'næste skridt'  i Att&ck frameworket, som handler om hvad/hvordan man kan bestykke sig mod angreb og identificere igangværende angreb
+
+Tuesday 05-OCT-2021
+===================
+Begyndte på læse op på MITRE ATTACK.
+Meget spændende og god info til at forstå lingo
+Det er et framework der samler alle Common Vulnerability Exposures (CVE)
+Fik også lidt mere øvelse i bag and tag og i cellebrite
+
+Monday 04-OCT-2021
 ===================
 Lavede en del analyse på Hydra sagen
 Afprøvede Nessus vulnerability scanner og satte openVPN op.
 
-Friday 01-10-2021
+Friday 01-OCT-2021
 ===============
 Kiggede en del rund i Axiom.
 Fandt nogle flere artefacts.
